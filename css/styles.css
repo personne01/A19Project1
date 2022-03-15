@@ -67,6 +67,83 @@ nav a {
   /* silahkan isi style kalian */
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.container h1 {
+  font-size: 72px;
+  color: #b38a4c;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+.container p {
+  text-align: center;
+  line-height: 1.67em;
+  font-size: 20px;
+  letter-spacing: normal;
+  margin-bottom: 50px;
+}
+
+.top-wrapper {
+  background-color: rgb(var(247, 247, 247));
+  position: absolute;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 1031px;
+  height: 570px;
+  float: left;
+  display: inline-block;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -400%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+
 .container-2 {
   /* silahkan isi style kalian */
 }

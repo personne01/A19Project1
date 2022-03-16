@@ -49,7 +49,9 @@ nav a {
   .menu-icon {
     visibility: visible;
   }
-
+  nav {
+    width: 100%;
+  }
   .account,
   nav li {
     visibility: hidden;
@@ -151,8 +153,29 @@ nav a {
   }
 }
 
+
 .container-2 {
-  /* silahkan isi style kalian */
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.story {
+  background-color: #b38a4c;
+  color: white;
+  text-align: center;
+  text-indent: 4px;
+  padding: 20px 120px 20px 120px;
+
+}
+
+.story-img img{
+  height:auto;
+  width: 100%; 
+
+}
+.story h2,h3{
+  text-indent: 6px;
 }
 
 .container-3 {

@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.brand {
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 10px;
+  text-align: center;
+}
+
+header {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+nav {
+  border-top: 1px solid #b38a4c;
+  margin: 0 auto;
+  width: 670px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 3px;
+  color: black;
+}
+.account {
+  float: right;
+  cursor: pointer;
+}
+.account p {
+  position: relative;
+  top: -20px;
+}
+.menu-icon {
+  float: left;
+  visibility: hidden;
+}
+@media (max-width: 670px) {
+  .menu-icon {
+    visibility: visible;
+  }
+
+  .account,
+  nav li {
+    visibility: hidden;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-1 {
+  /* silahkan isi style kalian */
+}
+
+.container-2 {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.story {
+  background-color: #b38a4c;
+  color: white;
+  text-align: center;
+  text-indent: 4px;
+  padding: 20px 120px 20px 120px;
+
+}
+
+.story-img img{
+  height:auto;
+  width: 100%; 
+
+}
+.story h2,h3{
+  text-indent: 6px;
+}
+
+
+.container-3 {
+  height: 500px;
+  color: #b38a4c;
+  text-align: center;
+}
+
+.container-3 p {
+  color: black;
+}
+
+.product-card {
+  width: 33.33333%;
+  padding: 0 8px;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .product-card {
+    width: 100%;
+  }
+}
+
+.product-icon {
+  padding: 30px;
+  font-size: 50px !important;
+}
+
+.product-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}

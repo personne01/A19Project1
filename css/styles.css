@@ -121,6 +121,22 @@ nav a {
     width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+    color: #b38a4c;
+    text-align: center;
+    line-height: 1.25em;
+  }
+  #slider figure img {
+    height: 200px;
+    width: 50%;
+  }
+  .container-2 {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 @keyframes slider {
   0% {
@@ -152,7 +168,6 @@ nav a {
   }
 }
 
-
 .container-2 {
   padding: 0px;
   margin: 0px;
@@ -165,15 +180,23 @@ nav a {
   text-align: center;
   text-indent: 4px;
   padding: 20px 120px 20px 120px;
-
+}
+@media (max-width: 400px) {
+  .story {
+    background-color: #b38a4c;
+    color: white;
+    text-align: center;
+    text-indent: 0;
+    padding: 10px;
+  }
 }
 
-.story-img img{
-  height:auto;
-  width: 100%; 
-
+.story-img img {
+  height: auto;
+  width: 100%;
 }
-.story h2,h3{
+.story h2,
+h3 {
   text-indent: 6px;
 }
 
@@ -207,4 +230,18 @@ nav a {
 .product-title {
   margin-bottom: 20px;
   font-size: 24px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+footer span {
+  margin: 10px;
+}
+footer .tag {
+  position: relative;
+  bottom: 0;
+  color: darkgrey;
 }

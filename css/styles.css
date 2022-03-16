@@ -37,10 +37,6 @@ nav a {
   float: right;
   cursor: pointer;
 }
-.account p {
-  position: relative;
-  top: -20px;
-}
 .menu-icon {
   float: left;
   visibility: hidden;
@@ -49,7 +45,9 @@ nav a {
   .menu-icon {
     visibility: visible;
   }
-
+  nav {
+    width: 100%;
+  }
   .account,
   nav li {
     visibility: hidden;

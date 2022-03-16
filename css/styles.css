@@ -116,13 +116,6 @@ nav a {
   flex: auto;
 }
 
-@media (max-width: 670px) {
-  #slider figure img {
-    height: 100px;
-    width: 100%;
-  }
-}
-
 @keyframes slider {
   0% {
     left: 0;
@@ -152,7 +145,6 @@ nav a {
     left: -400%;
   }
 }
-
 
 .container-2 {
   padding: 0px;
@@ -197,12 +189,25 @@ nav a {
 }
 
 @media (max-width: 767px) {
+  .container-1 h1{
+    font-size: 32px;
+  }
+
+  #slider figure img {
+    height: 200px;
+    width: 100%;
+  }
+
   .product-wrapper {
     flex-direction: column;
   }
 
   .product-card {
     width: 100%;
+  }
+
+  .story {
+    padding: 20px;
   }
 }
 
